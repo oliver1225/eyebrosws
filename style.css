@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100;300;400;500&family=Sunflower:wght@300;500&display=swap");
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+.file-upload {
+  position: relative;
+  top: -150px;
+  background-color: #ffffff;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 30vw;
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1fb264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824b;
+  transition: all 0.2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #1aa059;
+  color: #ffffff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all 0.2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+#loading {
+  display: none;
+}
+
+.human {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: -50px;
+}
+
+.human-icon {
+  width: 500px;
+  height: 500px;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 3px solid #35465d;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #35465d;
+  border: 1.5px dashed #ffffff;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: black;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.remove-image {
+  width: 150px;
+  margin-top: 20;
+  color: #fff;
+  background: #38100cb6;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all 0.2s ease;
+}
+
+.nav-distance {
+  padding: 2.1% 1.5%;
+}
+
+.navbar-light .navbar-brand {
+  font-family: Sunflower;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.youtube-icon {
+  width: 30px;
+  height: 25px;
+}
+
+.youtube-cover {
+  font-family: 은영;
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+}
+
+.section {
+  margin-top: 100px;
+}
+
+.title {
+  position: relative;
+  top: -150px;
+  left: -15px;
+  text-align: center;
+  font-family: "Black Han Sans";
+  line-height: 1.67;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  position: relative;
+  font-family: "Noto Sans KR";
+  top: -150px;
+  left: -15px;
+  line-height: 1.53;
+  text-align: center;
+  margin-bottom: 100px;
+  color: black;
+}
+
+.kimgitae {
+  padding-right: 3px;
+}
+
+.box_one {
+  position: relative;
+  top: -200px;
+  left: -15px;
+}
+
+.animal-explain {
+  color: #15824b;
+}
+
+.resultmessege {
+  background-color: #15824b;
+}
+
+#label-container {
+  width: 80%;
+  margin: 0 auto;
+  color: black;
+  font-size: 20px;
+  border: 3px solid #35465d;
+}
+
+.eyebrows-explain {
+  color: black;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.눈썹-eyebrows-title {
+  color: saddlebrown;
+  margin-top: 10px;
+  font-size: 70px;
+  font-family: "Black Han Sans";
+}
+
+.눈썹-eyebrows-celeb {
+  color: rgb(4, 79, 114);
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: "Sunflower", sans-serif;
+}
+
+.아치형-eyebrows-title {
+  color: saddlebrown;
+  margin-top: 10px;
+  font-size: 70px;
+  font-family: "Black Han Sans";
+}
+
+.아치형-eyebrows-celeb {
+  color: rgb(4, 79, 114);
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: "Sunflower", sans-serif;
+}
+
+.세미아치형-eyebrows-title {
+  color: saddlebrown;
+  margin-top: 10px;
+  font-size: 70px;
+  font-family: "Black Han Sans";
+}
+
+.세미아치형-eyebrows-celeb {
+  color: rgb(4, 79, 114);
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: "Sunflower", sans-serif;
+}
+.일자형-eyebrows-title {
+  color: saddlebrown;
+  margin-top: 10px;
+  font-size: 70px;
+  font-family: "Black Han Sans";
+}
+
+.일자형-eyebrows-celeb {
+  color: rgb(4, 79, 114);
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: "Sunflower", sans-serif;
+}
+
+/* gender */
+input#gender {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  width: 90px;
+  height: 41px;
+  box-shadow: 0 0 0 8px #e5e9ea inset;
+  border-radius: 30px;
+  position: relative;
+}
+
+.knob {
+  position: absolute;
+  width: 41px;
+  top: 0;
+  left: 0;
+  height: 41px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px #a1c6dd inset;
+  background-color: #a1c6dd;
+  transition: 0.3s;
+}
+
+input:checked + label > .knob {
+  box-shadow: 0 0 0 8px #f470a7 inset;
+  background-color: #f470a7;
+  transform: translateX(49px) rotate(-140deg);
+}
+
+.main_title {
+  position: relative;
+  left: 600px;
+  bottom: -200px;
+}
+
+.finish {
+  position: relative;
+  bottom: -370px;
+  display: flex;
+  justify-content: center;
+}
