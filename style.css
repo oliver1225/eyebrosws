@@ -11,6 +11,8 @@
 body {
   font-family: sans-serif;
   background-color: #ffffff;
+  box-sizing: border-box;
+  color: #35465d;
 }
 
 .file-upload {
@@ -227,7 +229,7 @@ body {
 .눈썹-eyebrows-title {
   color: saddlebrown;
   margin-top: 10px;
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Black Han Sans";
 }
 
@@ -241,7 +243,7 @@ body {
 .아치형-eyebrows-title {
   color: saddlebrown;
   margin-top: 10px;
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Black Han Sans";
 }
 
@@ -255,7 +257,7 @@ body {
 .세미아치형-eyebrows-title {
   color: saddlebrown;
   margin-top: 10px;
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Black Han Sans";
 }
 
@@ -268,7 +270,7 @@ body {
 .일자형-eyebrows-title {
   color: saddlebrown;
   margin-top: 10px;
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Black Han Sans";
 }
 
